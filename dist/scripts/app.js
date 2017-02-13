@@ -7,8 +7,9 @@
 
             return {
               appName: appName,
-              appDesc: appDescription
+              appDesc: appDescription,
             };
+
           };
 
         });
