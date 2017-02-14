@@ -27,7 +27,7 @@
                   templateUrl: '/templates/landing.html'
               })
             .state('collections', {
-                url: '/collections',
+                url: '/collections?portfolioId',
                 controller: 'CollectionCtrl as collection',
                 templateUrl: '/templates/collection.html'
 

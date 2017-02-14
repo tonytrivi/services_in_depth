@@ -1,11 +1,12 @@
 (function() {
-     function CollectionCtrl() {
+     function CollectionCtrl($stateParams) {
         this.blah = "collection value";
+        this.portfolioId = $stateParams.portfolioId;
 
 
 
      }
      angular
          .module('servicelesson')
-         .controller('CollectionCtrl', CollectionCtrl)
+         .controller('CollectionCtrl', ['$stateParams', CollectionCtrl])
  })();
